@@ -15,8 +15,6 @@ const Colaborador = (props) =>{
                     <h4>{nombre}</h4>
                     <h5>{puesto}</h5>
                     {fav ? <AiFillHeart color="red" onClick={()=>like (id)}/> : <AiOutlineHeart onClick={()=>like (id)}/> } {/*Con esta condición nos permitirá decidir que icono se muestre dependiendo si es true o false*/}
-                    
-                    
                 </div>
 
             </div>

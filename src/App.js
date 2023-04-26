@@ -8,10 +8,6 @@ import Equipo from "./componentes/Equipo/Equipo";
 import Footer from "./componentes/Footer/Footer"
 
 
-
-
-
-
 function App() {
   
   const [mostrarFormulario,actualizarMostrar] = useState (false); // aca se utiliza el hooks useState, este se declara como una constante entre los corchetes lleva el nombre de la constante
@@ -28,7 +24,7 @@ function App() {
       fav: true
   },{
     id: uuidv4(),
-    equipo: "Programación",
+    equipo: "Backend",
     foto: "https://github.com/genesysaluralatam.png",
     nombre: "Genesys Rondón",
     puesto: "Desarrolladora de software e instructora",
@@ -44,7 +40,7 @@ function App() {
   },
   {
     id: uuidv4(),
-    equipo: "Programación",
+    equipo: "Backend",
     foto: "https://github.com/christianpva.png",
     nombre: "Christian Velasco",
     puesto: "Head de Alura e Instructor",
@@ -65,7 +61,7 @@ function App() {
   const [equipos, actualizarEquipos] = useState ([
     { 
       id:uuidv4 (),
-      titulo: "Programación",
+      titulo: "Backend",
       colorPrimario:"#57C278",
       colorSecundario: "#D9F7E9"
     },
