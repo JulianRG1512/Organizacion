@@ -32,7 +32,7 @@ function App() {
   },
   {
     id: uuidv4(),
-    equipo: "UX y Diseño",
+    equipo: "Seguridad",
     foto: "https://github.com/JeanmarieAluraLatam.png",
     nombre: "Jeanmarie Quijada",
     puesto: "Instructora en Alura Latam",
@@ -53,7 +53,14 @@ function App() {
     nombre: "Jose Gonzalez",
     puesto: "Dev FullStack",
     fav: false
-  }
+  },{
+    id:uuidv4 (),
+    equipo: "Seguridad",
+    foto: "https://github.com/harlandlohora.png",
+    nombre:"Harlan Lohora",
+    puesto: "Instructor",
+    fav: true
+}
 
 ]);
 
@@ -85,7 +92,7 @@ function App() {
     },
     {
       id:uuidv4 (),
-      titulo: "Ux y Diseño",
+      titulo: "Seguridad",
       colorPrimario:"#DB6EBF",
       colorSecundario: "#FAE9F5"
     },
